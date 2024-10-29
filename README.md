@@ -13,7 +13,21 @@
 
 ### Шаги установки
 
-**Клонируйте репозиторий**:
+1. **Клонируйте репозиторий**:
    ```bash
    git clone https://github.com/Tokimikichika/TestWork---full-stack-currency.git
    cd TestWork---full-stack-currency
+
+2. **Установите зависимости:**
+    ```bash
+    npm install
+
+3. **Запуск приложения:**
+    ```bash
+    node index.js
+
+## Пример вывода в консоли
+    ```bash
+    Сервис запущен. Получение курсов валют каждую минуту...
+    Текущий курс USD/RUB: 97.5000
+    Текущий курс EUR/RUB: 113.3000
